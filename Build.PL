@@ -133,7 +133,11 @@ my $build = $class->new
 	dist_version => GetVersionAndRevisionFrom('lib/File/Path/Collapse.pm'),
 	
 	license => 'perl',
-	
+	build_requires => 
+		{
+		'Data::TreeDumper' => 0.35,
+		},
+		
 	requires => 
 		{
 		'Readonly'         => 0,

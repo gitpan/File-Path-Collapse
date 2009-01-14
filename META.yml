@@ -1,6 +1,6 @@
 ---
 name: File-Path-Collapse
-version: 0.01.4
+version: 0.02.6
 author:
   - 'Nadim ibn hamouda el Khemir. <nkh@cpan.org>'
 abstract: Collapses a path as much as possible
@@ -15,10 +15,12 @@ requires:
   Test::NoWarnings: 0
   Test::Strict: 0
   Test::Warn: 0
+build_requires:
+  Data::TreeDumper: 0.35
 provides:
   File::Path::Collapse:
     file: lib/File/Path/Collapse.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
