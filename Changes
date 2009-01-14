@@ -1,4 +1,10 @@
-commit 04a6d0e67559ae84bf9a6525fcda4bfe264ceb08 (refs/heads/master)
+commit 389b827d06870c7f4fcc29c5b77b6cfa692c4106 (refs/heads/master)
+Author: nadim khemir <nkh@cpan.org>
+Date:   Wed Jan 14 18:04:53 2009 +0100
+
+    FIXED: dependencies
+
+commit 04a6d0e67559ae84bf9a6525fcda4bfe264ceb08
 Author: nadim khemir <nkh@cpan.org>
 Date:   Wed Jan 14 16:31:39 2009 +0100
 
